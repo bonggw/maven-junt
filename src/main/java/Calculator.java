@@ -11,5 +11,6 @@ public class Calculator {
         System.out.println("call multiply(..)");
         return DoubleStream.of(operands)
                 .reduce(1, (a, b) -> a * b);
+		//comment 추가 할까 말까
     }
 }
